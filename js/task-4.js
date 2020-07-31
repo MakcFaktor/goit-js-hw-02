@@ -21,3 +21,9 @@ buttonTask4Ref.addEventListener('click', () => {
   console.log(formatString('Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.'));
   alert('Строка обрезана.');
 });
+
+
+// `${string.slice(0, 40)...}`
+
+
+// string.slice(0, stringLengthMax) + '...';

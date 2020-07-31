@@ -5,8 +5,8 @@ const buttonTask1Ref = document.querySelector('#task1');
 buttonTask1Ref.addEventListener('click', () => {
   const logItems = array => {
     for (let i = 0; i < array.length; i += 1) {
-      let numberElement = i + 1;
-      let nameElement = array[i];
+      const numberElement = i + 1;
+      const nameElement = array[i];
       console.log(`${numberElement} - ${nameElement}`);
     }
   };
